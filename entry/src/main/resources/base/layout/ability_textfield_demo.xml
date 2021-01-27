@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:orientation="vertical"
+    ohos:width="match_parent">
+
+    <Text
+        ohos:id="$+id:text"
+        ohos:width="match_parent"
+        ohos:height="match_content"
+        ohos:text="设置Bubble,设置提示文字,设置TextField的背景,设置TextField的多行显示,设置基线"
+        ohos:text_size="14fp"
+        ohos:text_color="#000"/>
+
+    <TextField
+        ohos:top_margin="20vp"
+        ohos:element_cursor_bubble="$graphic:ele_cursor_bubble"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:multiple_lines="true"
+        ohos:text_size="20fp"
+        ohos:left_padding="20vp"
+        ohos:basement="#000099"
+        ohos:hint="Enter phone number or email"
+        ohos:background_element="$graphic:background_text_field"
+    />
+
+    <DirectionalLayout
+        xmlns:ohos="http://schemas.huawei.com/res/ohos"
+        ohos:width="match_parent"
+        ohos:height="match_parent"
+        ohos:background_element="#FF000000"
+        ohos:orientation="vertical">
+
+        <StackLayout
+            ohos:top_margin="60vp"
+            ohos:width="match_parent"
+            ohos:height="match_content"
+            ohos:layout_alignment="center">
+            <TextField
+                ohos:id="$+id:name_textField"
+                ohos:width="match_parent"
+                ohos:height="match_content"
+                ohos:multiple_lines="false"
+                ohos:left_padding="24vp"
+                ohos:right_padding="24vp"
+                ohos:top_padding="8vp"
+                ohos:bottom_padding="8vp"
+                ohos:min_height="44vp"
+                ohos:text_size="18fp"
+                ohos:layout_alignment="center"
+                ohos:text_alignment="center_vertical"
+                ohos:background_element="$graphic:background_text_field2"
+                ohos:hint="Enter phone number or email" />
+
+            <Text
+                ohos:visibility="hide"
+                ohos:id="$+id:error_tip_text"
+                ohos:width="match_content"
+                ohos:height="match_content"
+                ohos:top_padding="8vp"
+                ohos:bottom_padding="8vp"
+                ohos:right_margin="20vp"
+                ohos:text="Incorrect account or password"
+                ohos:text_size="18fp"
+                ohos:text_color="red"
+                ohos:layout_alignment="right"/>
+        </StackLayout>
+
+        <TextField
+            ohos:top_margin="40vp"
+            ohos:id="$+id:password_text_field"
+            ohos:width="match_parent"
+            ohos:height="match_content"
+            ohos:multiple_lines="false"
+            ohos:left_padding="24vp"
+            ohos:right_padding="24vp"
+            ohos:top_padding="8vp"
+            ohos:bottom_padding="8vp"
+            ohos:min_height="44vp"
+            ohos:text_size="18fp"
+            ohos:layout_alignment="center"
+            ohos:text_alignment="center_vertical"
+            ohos:background_element="$graphic:background_text_field2"
+            ohos:hint="Enter password" />
+
+        <Button
+            ohos:top_margin="40vp"
+            ohos:id="$+id:ensure_button"
+            ohos:width="120vp"
+            ohos:height="35vp"
+            ohos:background_element="$graphic:background_btn"
+            ohos:text="Log in"
+            ohos:text_size="20fp"
+            ohos:layout_alignment="horizontal_center"/>
+
+    </DirectionalLayout>
+
+</DirectionalLayout>

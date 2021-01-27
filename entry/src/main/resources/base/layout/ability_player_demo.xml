@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <StackLayout
+        ohos:id="$+id:player_layout"
+        ohos:height="200vp"
+        ohos:width="match_parent"
+        ohos:background_element="#000">
+
+        <Slider
+            ohos:id="$+id:player_progress"
+            ohos:height="50vp"
+            ohos:width="match_parent"
+            ohos:layout_alignment="bottom"
+            ohos:max="100"
+            ohos:min="0"
+            ohos:padding="10vp"
+            ohos:progress_element="#f00"/>
+    </StackLayout>
+
+    <Button
+        ohos:id="$+id:btn_player_start"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:background_element="$graphic:bg_rounded_rectangle"
+        ohos:margin="10vp"
+        ohos:padding="10vp"
+        ohos:text="开始"
+        ohos:text_size="20fp"/>
+
+    <Button
+        ohos:id="$+id:btn_player_pause"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:background_element="$graphic:bg_rounded_rectangle"
+        ohos:margin="10vp"
+        ohos:padding="10vp"
+        ohos:text="暂停"
+        ohos:text_size="20fp"/>
+
+    <Button
+        ohos:id="$+id:btn_player_stop"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:background_element="$graphic:bg_rounded_rectangle"
+        ohos:margin="10vp"
+        ohos:padding="10vp"
+        ohos:text="结束"
+        ohos:text_size="20fp"/>
+
+    <Button
+        ohos:id="$+id:btn_player_next"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:background_element="$graphic:bg_rounded_rectangle"
+        ohos:margin="10vp"
+        ohos:padding="10vp"
+        ohos:text="切换视频"
+        ohos:text_size="20fp"/>
+
+    <Button
+        ohos:id="$+id:btn_player_audio"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:background_element="$graphic:bg_rounded_rectangle"
+        ohos:margin="10vp"
+        ohos:padding="10vp"
+        ohos:text="播放MP3"
+        ohos:text_size="20fp"/>
+
+
+
+</DirectionalLayout>

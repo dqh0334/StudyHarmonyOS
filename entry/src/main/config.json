@@ -1,0 +1,108 @@
+{
+  "app": {
+    "bundleName": "com.harmonyos.myapplication",
+    "vendor": "dqh",
+    "version": {
+      "code": 1,
+      "name": "1.0"
+    },
+    "apiVersion": {
+      "compatible": 4,
+      "target": 4,
+      "releaseType": "Beta1"
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "package": "com.harmonyos.myapplication",
+    "name": ".MyApplication",
+    "deviceType": [
+      "phone"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry"
+    },
+    "abilities": [
+      {
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ],
+        "orientation": "unspecified",
+        "name": "com.harmonyos.myapplication.MainAbility",
+        "icon": "$media:icon",
+        "description": "$string:mainability_description",
+        "label": "MyApplication",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.harmonyos.myapplication.CommonCompontsAbility",
+        "icon": "$media:icon",
+        "description": "$string:commoncompontsability_description",
+        "label": "entry",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.harmonyos.myapplication.CommonLayoutAbility",
+        "icon": "$media:icon",
+        "description": "$string:commonlayout_description",
+        "label": "entry",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.harmonyos.myapplication.AnimationAbility",
+        "icon": "$media:icon",
+        "description": "$string:animationability_description",
+        "label": "entry",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.harmonyos.myapplication.TestFractionAbility",
+        "icon": "$media:icon",
+        "description": "$string:testfractionability_description",
+        "label": "entry",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.harmonyos.myapplication.MediaAbility",
+        "icon": "$media:icon",
+        "description": "$string:mediaability_description",
+        "label": "entry",
+        "type": "page",
+        "launchType": "standard",
+        "metaData": {
+          "customizeData": [
+            {
+              "name": "hwc-theme",
+              "extra": "",
+              "value": "androidhwext:style/Theme.Emui.Translucent.NoTitleBar"
+            }
+          ]
+        }
+      }
+    ],
+    "reqPermissions": [
+      {
+        "name": "ohos.permission.CAMERA"
+      }
+    ]
+  }
+}

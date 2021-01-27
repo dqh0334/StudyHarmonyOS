@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent">
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:orientation="vertical">
+
+        <Text
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:text="设置透明度"
+            ohos:text_color="#000"
+            ohos:text_size="14fp"/>
+
+
+        <Image
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:image_src="$media:plant"
+            ohos:layout_alignment="center"/>
+
+        <Text
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:text="设置X轴和Y轴缩放为0.5的效果"
+            ohos:text_color="#000"
+            ohos:text_size="14fp"/>
+
+        <Image
+            ohos:id="$+id:image"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:image_src="$media:plant"
+            ohos:layout_alignment="center"
+            ohos:scale_x="0.5"
+            ohos:scale_y="0.5"/>
+
+        <Text
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:multiple_lines="true"
+            ohos:text="设置缩放方式"
+            ohos:text_color="#000"
+            ohos:text_size="24fp"/>
+
+
+        <Text
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:multiple_lines="true"
+            ohos:text="1.1按比例将原图扩大(缩小)到Image的宽度，居中显示。"
+            ohos:text_color="#000"
+            ohos:text_size="14fp"/>
+
+        <Image
+            ohos:id="$+id:image"
+            ohos:height="200vp"
+            ohos:width="200vp"
+            ohos:image_src="$media:plant"
+            ohos:layout_alignment="center"
+            ohos:scale_mode="zoom_center"/>
+
+        <Text
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:multiple_lines="true"
+            ohos:text="1.2按比例将原图扩大(缩小)到Image的宽度，显示在Image的上部分位置。"
+            ohos:text_color="#000"
+            ohos:text_size="14fp"/>
+
+        <Image
+            ohos:id="$+id:image"
+            ohos:height="200vp"
+            ohos:width="200vp"
+            ohos:image_src="$media:plant"
+            ohos:layout_alignment="center"
+            ohos:scale_mode="zoom_start"/>
+
+        <Text
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:multiple_lines="true"
+            ohos:text="1.3按比例将原图扩大(缩小)到Image的宽度，显示在Image的下部分位置。"
+            ohos:text_color="#000"
+            ohos:text_size="14fp"/>
+
+        <Image
+            ohos:id="$+id:image"
+            ohos:height="200vp"
+            ohos:width="200vp"
+            ohos:image_src="$media:plant"
+            ohos:layout_alignment="center"
+            ohos:scale_mode="zoom_end"/>
+
+        <Text
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:multiple_lines="true"
+            ohos:text="1.4不按比例将图片扩大/缩小到Image的大小显示。"
+            ohos:text_color="#000"
+            ohos:text_size="14fp"/>
+
+        <Image
+            ohos:id="$+id:image"
+            ohos:height="200vp"
+            ohos:width="200vp"
+            ohos:image_src="$media:plant"
+            ohos:layout_alignment="center"
+            ohos:scale_mode="stretch"/>
+
+        <Text
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:multiple_lines="true"
+            ohos:text="1.5保持原图的大小，显示在Image的中心。当原图的尺寸大于Image的尺寸时，超过部分裁剪处理。"
+            ohos:text_color="#000"
+            ohos:text_size="14fp"/>
+
+        <Image
+            ohos:height="200vp"
+            ohos:width="200vp"
+            ohos:image_src="$media:plant"
+            ohos:layout_alignment="center"
+            ohos:scale_mode="center"/>
+
+        <Text
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:multiple_lines="true"
+            ohos:text="1.6按比例将原图缩小到Image的宽度，将图片的内容完整居中显示。"
+            ohos:text_color="#000"
+            ohos:text_size="14fp"/>
+
+        <Image
+            ohos:height="200vp"
+            ohos:width="200vp"
+            ohos:image_src="$media:plant"
+            ohos:layout_alignment="center"
+            ohos:scale_mode="inside"/>
+
+        <Text
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:multiple_lines="true"
+            ohos:text="1.7按比例将原图扩大(缩小)到Image的宽度和高度中较大的值。如设置的高度值较大时，在垂直方向上完整显示，水平方向上超出Image宽度的部分裁剪处理。"
+            ohos:text_color="#000"
+            ohos:text_size="14fp"/>
+
+        <Image
+            ohos:height="200vp"
+            ohos:width="200vp"
+            ohos:image_src="$media:plant"
+            ohos:layout_alignment="center"
+            ohos:scale_mode="clip_center"/>
+
+        <Text
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:multiple_lines="true"
+            ohos:text="设置裁剪对齐模式"
+            ohos:text_color="#000"
+            ohos:text_size="24fp"/>
+
+
+        <Text
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:multiple_lines="true"
+            ohos:text="左对齐裁剪。"
+            ohos:text_color="#000"
+            ohos:text_size="14fp"/>
+
+        <Image
+            ohos:height="200vp"
+            ohos:width="200vp"
+            ohos:clip_alignment="left"
+            ohos:image_src="$media:plant"
+            ohos:layout_alignment="center"/>
+
+        <Text
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:multiple_lines="true"
+            ohos:text="右对齐裁剪。"
+            ohos:text_color="#000"
+            ohos:text_size="14fp"/>
+
+        <Image
+            ohos:height="200vp"
+            ohos:width="200vp"
+            ohos:clip_alignment="right"
+            ohos:image_src="$media:plant"
+            ohos:layout_alignment="center"/>
+
+        <Text
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:multiple_lines="true"
+            ohos:text="顶部对齐裁剪。"
+            ohos:text_color="#000"
+            ohos:text_size="14fp"/>
+
+        <Image
+            ohos:height="200vp"
+            ohos:width="200vp"
+            ohos:clip_alignment="top"
+            ohos:image_src="$media:plant"
+            ohos:layout_alignment="center"/>
+
+        <Text
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:multiple_lines="true"
+            ohos:text="底部对齐裁剪。"
+            ohos:text_color="#000"
+            ohos:text_size="14fp"/>
+
+        <Image
+            ohos:height="200vp"
+            ohos:width="200vp"
+            ohos:clip_alignment="bottom"
+            ohos:image_src="$media:plant"
+            ohos:layout_alignment="center"/>
+
+        <Text
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:multiple_lines="true"
+            ohos:text="居中裁剪。"
+            ohos:text_color="#000"
+            ohos:text_size="14fp"/>
+
+        <Image
+            ohos:height="200vp"
+            ohos:width="200vp"
+            ohos:clip_alignment="center"
+            ohos:image_src="$media:plant"
+            ohos:layout_alignment="center"/>
+
+
+        <Text
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:multiple_lines="true"
+            ohos:text="点击下图切换图片。"
+            ohos:text_color="#000"
+            ohos:text_size="14fp"/>
+
+        <Image
+            ohos:id="$+id:image_switch"
+            ohos:height="200vp"
+            ohos:width="200vp"
+            ohos:clip_alignment="center"
+            ohos:image_src="$media:plant"
+            ohos:layout_alignment="center"/>
+
+    </DirectionalLayout>
+</ScrollView>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <TimePicker
+        ohos:am_pm_order="1"
+        ohos:bottom_line_element="#00BFFF"
+        ohos:shader_color="#00BFFF"
+        ohos:selected_normal_text_margin_ratio="10"
+        ohos:operated_text_color="#FF9912"
+        ohos:selected_text_color="#007DFF"
+        ohos:selected_text_size="20fp"
+        ohos:normal_text_color="#007DFF"
+        ohos:normal_text_size="20fp"
+        ohos:id="$+id:time_picker"
+        ohos:height="match_content"
+        ohos:width="match_parent" />
+
+</DirectionalLayout>

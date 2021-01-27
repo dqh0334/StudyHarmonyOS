@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <Button
+        ohos:id="$+id:btn_dialog_1"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:background_element="$graphic:bg_rounded_rectangle"
+        ohos:margin="10vp"
+        ohos:padding="10vp"
+        ohos:text="Base Toast"
+        ohos:text_size="20fp"/>
+
+    <Button
+        ohos:id="$+id:btn_dialog_2"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:background_element="$graphic:bg_rounded_rectangle"
+        ohos:margin="10vp"
+        ohos:padding="10vp"
+        ohos:text="Set Position"
+        ohos:text_size="20fp"/>
+
+    <Button
+        ohos:id="$+id:btn_dialog_3"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:background_element="$graphic:bg_rounded_rectangle"
+        ohos:margin="10vp"
+        ohos:padding="10vp"
+        ohos:text="Custom Toast"
+        ohos:text_size="20fp"/>
+
+    <Button
+        ohos:id="$+id:btn_dialog_4"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:background_element="$graphic:bg_rounded_rectangle"
+        ohos:margin="10vp"
+        ohos:padding="10vp"
+        ohos:text="Add An Image"
+        ohos:text_size="20fp"/>
+
+
+</DirectionalLayout>

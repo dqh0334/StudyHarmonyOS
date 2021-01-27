@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_parent">
+        
+        <Button
+            ohos:id="$+id:btn_common_componts"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:text_size="20fp"
+            ohos:margin="10vp"
+            ohos:padding="10vp"
+            ohos:background_element="$graphic:bg_rounded_rectangle"
+            ohos:text="UI常用组件"/>
+
+        <Button
+            ohos:id="$+id:btn_common_layout"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:text_size="20fp"
+            ohos:margin="10vp"
+            ohos:padding="10vp"
+            ohos:background_element="$graphic:bg_rounded_rectangle"
+            ohos:text="UI常用布局"/>
+
+        <Button
+            ohos:id="$+id:btn_animation"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:text_size="20fp"
+            ohos:margin="10vp"
+            ohos:padding="10vp"
+            ohos:background_element="$graphic:bg_rounded_rectangle"
+            ohos:text="动画"/>
+
+        <Button
+            ohos:id="$+id:btn_fraction"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:text_size="20fp"
+            ohos:margin="10vp"
+            ohos:padding="10vp"
+            ohos:background_element="$graphic:bg_rounded_rectangle"
+            ohos:text="Fraction"/>
+
+        <Button
+            ohos:id="$+id:btn_media"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:text_size="20fp"
+            ohos:margin="10vp"
+            ohos:padding="10vp"
+            ohos:background_element="$graphic:bg_rounded_rectangle"
+            ohos:text="媒体"/>
+
+
+    </DirectionalLayout>
+</ScrollView>

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent">
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:bottom_padding="100vp"
+        ohos:orientation="vertical">
+
+        <Button
+            ohos:id="$+id:btn_text_demo"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:background_element="$graphic:bg_rounded_rectangle"
+            ohos:margin="10vp"
+            ohos:padding="10vp"
+            ohos:text="Text控件"
+            ohos:text_size="20fp"/>
+
+        <Button
+            ohos:id="$+id:btn_button_demo"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:background_element="$graphic:bg_rounded_rectangle"
+            ohos:margin="10vp"
+            ohos:padding="10vp"
+            ohos:text="Button控件"
+            ohos:text_size="20fp"/>
+
+        <Button
+            ohos:id="$+id:btn_textfield_demo"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:background_element="$graphic:bg_rounded_rectangle"
+            ohos:margin="10vp"
+            ohos:padding="10vp"
+            ohos:text="TextField控件"
+            ohos:text_size="20fp"/>
+
+        <Button
+            ohos:id="$+id:btn_image_demo"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:background_element="$graphic:bg_rounded_rectangle"
+            ohos:margin="10vp"
+            ohos:padding="10vp"
+            ohos:text="Image控件"
+            ohos:text_size="20fp"/>
+
+        <Button
+            ohos:id="$+id:btn_tablist_demo"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:background_element="$graphic:bg_rounded_rectangle"
+            ohos:margin="10vp"
+            ohos:padding="10vp"
+            ohos:text="TabList控件"
+            ohos:text_size="20fp"/>
+
+        <Button
+            ohos:id="$+id:btn_picker_demo"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:background_element="$graphic:bg_rounded_rectangle"
+            ohos:margin="10vp"
+            ohos:padding="10vp"
+            ohos:text="Picker控件"
+            ohos:text_size="20fp"/>
+
+        <Button
+            ohos:id="$+id:btn_datapicker_demo"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:background_element="$graphic:bg_rounded_rectangle"
+            ohos:margin="10vp"
+            ohos:padding="10vp"
+            ohos:text="DataPicker控件"
+            ohos:text_size="20fp"/>
+
+        <Button
+            ohos:id="$+id:btn_timepicker_demo"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:background_element="$graphic:bg_rounded_rectangle"
+            ohos:margin="10vp"
+            ohos:padding="10vp"
+            ohos:text="TimePicker控件"
+            ohos:text_size="20fp"/>
+
+        <Button
+            ohos:id="$+id:btn_switch_demo"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:background_element="$graphic:bg_rounded_rectangle"
+            ohos:margin="10vp"
+            ohos:padding="10vp"
+            ohos:text="Switch控件"
+            ohos:text_size="20fp"/>
+
+        <Button
+            ohos:id="$+id:btn_radiocontainer_demo"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:background_element="$graphic:bg_rounded_rectangle"
+            ohos:margin="10vp"
+            ohos:padding="10vp"
+            ohos:text="RadioContainer控件"
+            ohos:text_size="20fp"/>
+
+        <Button
+            ohos:id="$+id:btn_checkbox_demo"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:background_element="$graphic:bg_rounded_rectangle"
+            ohos:margin="10vp"
+            ohos:padding="10vp"
+            ohos:text="Checkbox控件"
+            ohos:text_size="20fp"/>
+
+        <Button
+            ohos:id="$+id:btn_progressbar_demo"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:background_element="$graphic:bg_rounded_rectangle"
+            ohos:margin="10vp"
+            ohos:padding="10vp"
+            ohos:text="ProgressBar控件"
+            ohos:text_size="20fp"/>
+
+        <Button
+            ohos:id="$+id:btn_slider_demo"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:background_element="$graphic:bg_rounded_rectangle"
+            ohos:margin="10vp"
+            ohos:padding="10vp"
+            ohos:text="Slider控件"
+            ohos:text_size="20fp"/>
+
+        <Button
+            ohos:id="$+id:btn_roundprogressbar_demo"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:background_element="$graphic:bg_rounded_rectangle"
+            ohos:margin="10vp"
+            ohos:padding="10vp"
+            ohos:text="RoundProgressBar控件"
+            ohos:text_size="20fp"/>
+        <Button
+            ohos:id="$+id:btn_toastdialog_demo"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:background_element="$graphic:bg_rounded_rectangle"
+            ohos:margin="10vp"
+            ohos:padding="10vp"
+            ohos:text="ToastDialog控件"
+            ohos:text_size="20fp"/>
+
+        <Button
+            ohos:id="$+id:btn_scrollview_demo"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:background_element="$graphic:bg_rounded_rectangle"
+            ohos:margin="10vp"
+            ohos:padding="10vp"
+            ohos:text="ScrollView控件"
+            ohos:text_size="20fp"/>
+
+
+        <Button
+            ohos:id="$+id:btn_listcontainer_demo"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:background_element="$graphic:bg_rounded_rectangle"
+            ohos:margin="10vp"
+            ohos:padding="10vp"
+            ohos:text="ListContainer控件"
+            ohos:text_size="20fp"/>
+
+        <Button
+            ohos:id="$+id:btn_pageslider_demo"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:background_element="$graphic:bg_rounded_rectangle"
+            ohos:margin="10vp"
+            ohos:padding="10vp"
+            ohos:text="pageslider控件"
+            ohos:text_size="20fp"/>
+
+    </DirectionalLayout>
+</ScrollView>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <Checkbox
+        ohos:id="$+id:check_box"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="设置选择后Checkbox文字颜色的变化"
+        ohos:text_color_on="#00AAEE"
+        ohos:text_color_off="#000000"
+        ohos:check_element="$graphic:background_checkbox_check"
+        ohos:text_size="20fp" />
+
+    <Checkbox
+        ohos:id="$+id:check_box_5"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:layout_alignment="center"
+        ohos:text="取消Checkbox默认选中圆点图标"
+        ohos:text_color_on="#00AAEE"
+        ohos:text_color_off="#000000"
+        ohos:check_element="$graphic:background_checkbox_check"
+        ohos:text_size="20fp" />
+
+    <Text
+        ohos:top_margin="30vp"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:text_size="20fp"
+        ohos:text="简单示例"/>
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:orientation="vertical"
+        ohos:left_padding="40vp"
+        ohos:top_padding="10vp">
+
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:orientation="horizontal">
+
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:text_size="18fp"
+                ohos:text="Which of the following are fruits?"/>
+
+            <Text
+                ohos:id="$+id:text_answer"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:left_margin="20vp"
+                ohos:text_size="20fp"
+                ohos:text_color="#FF3333"
+                ohos:text="[]" />
+        </DirectionalLayout>
+
+        <Checkbox
+            ohos:id="$+id:check_box_1"
+            ohos:top_margin="40vp"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="A Apples"
+            ohos:text_size="20fp"
+            ohos:text_color_on="#FF3333"
+            ohos:text_color_off="#000000"/>
+
+        <Checkbox
+            ohos:id="$+id:check_box_2"
+            ohos:top_margin="40vp"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="B Bananas"
+            ohos:text_size="20fp"
+            ohos:text_color_on="#FF3333"
+            ohos:text_color_off="#000000"/>
+
+        <Checkbox
+            ohos:id="$+id:check_box_3"
+            ohos:top_margin="40vp"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="C Strawberries"
+            ohos:text_size="20fp"
+            ohos:text_color_on="#FF3333"
+            ohos:text_color_off="#000000" />
+
+        <Checkbox
+            ohos:id="$+id:check_box_4"
+            ohos:top_margin="40vp"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="D Potatoes"
+            ohos:text_size="20fp"
+            ohos:text_color_on="#FF3333"
+            ohos:text_color_off="black" />
+    </DirectionalLayout>
+
+</DirectionalLayout>

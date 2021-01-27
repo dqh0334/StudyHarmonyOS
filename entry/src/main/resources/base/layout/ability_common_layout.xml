@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <Button
+        ohos:id="$+id:btn_directionallayout_demo"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:background_element="$graphic:bg_rounded_rectangle"
+        ohos:margin="10vp"
+        ohos:padding="10vp"
+        ohos:text="DirectionalLayout布局"
+        ohos:text_size="20fp"/>
+
+    <Button
+        ohos:id="$+id:btn_dependentlayoutt_demo"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:background_element="$graphic:bg_rounded_rectangle"
+        ohos:margin="10vp"
+        ohos:padding="10vp"
+        ohos:text="DependentLayout布局"
+        ohos:text_size="20fp"/>
+
+    <Button
+        ohos:id="$+id:btn_stacklayout_demo"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:background_element="$graphic:bg_rounded_rectangle"
+        ohos:margin="10vp"
+        ohos:padding="10vp"
+        ohos:text="StackLayout布局"
+        ohos:text_size="20fp"/>
+
+    <Button
+        ohos:id="$+id:btn_tablelayout_demo"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:background_element="$graphic:bg_rounded_rectangle"
+        ohos:margin="10vp"
+        ohos:padding="10vp"
+        ohos:text="TableLayout布局"
+        ohos:text_size="20fp"/>
+
+
+</DirectionalLayout>

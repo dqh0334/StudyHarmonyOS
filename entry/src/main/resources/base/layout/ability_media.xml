@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StackLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:id="$+id:stackLayout"
+    ohos:orientation="vertical">
+
+    <DirectionalLayout
+        ohos:layout_alignment="bottom"
+        ohos:height="280vp"
+        ohos:width="match_parent"
+        ohos:orientation="vertical">
+
+        <Button
+            ohos:id="$+id:btn_player_video"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:background_element="$graphic:bg_rounded_rectangle"
+            ohos:margin="10vp"
+            ohos:padding="10vp"
+            ohos:text="Player播放视频文件"
+            ohos:text_size="20fp"/>
+
+        <Button
+            ohos:id="$+id:btn_take_picture"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:background_element="$graphic:bg_rounded_rectangle"
+            ohos:margin="10vp"
+            ohos:padding="10vp"
+            ohos:text="camera拍照"
+            ohos:text_size="20fp"/>
+    </DirectionalLayout>
+
+</StackLayout>

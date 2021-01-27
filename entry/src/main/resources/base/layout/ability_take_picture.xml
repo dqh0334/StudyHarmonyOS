@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_parent">
+
+        <SurfaceProvider
+            ohos:id="$+id:camera_preview"
+            ohos:height="360vp"
+            ohos:width="match_parent"/>
+
+        <Button
+            ohos:id="$+id:btn_take_picture"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:background_element="$graphic:bg_rounded_rectangle"
+            ohos:margin="10vp"
+            ohos:padding="10vp"
+            ohos:text="拍照"
+            ohos:text_size="20fp"/>
+
+        <Image
+            ohos:id="$+id:preview_picture"
+            ohos:height="match_parent"
+            ohos:width="match_parent"/>
+
+    </DirectionalLayout>
+</ScrollView>

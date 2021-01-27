@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:id="$+id:scrollview"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:background_element="#FFDEAD"
+    ohos:bottom_padding="16vp"
+    ohos:layout_alignment="horizontal_center"
+    ohos:rebound_effect="true"
+    ohos:top_margin="32vp">
+
+    <DirectionalLayout
+        ohos:orientation="vertical"
+        ohos:height="match_content"
+        ohos:width="match_content">
+
+        <Image
+            ohos:id="$+id:img_1"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:image_src="$media:plant"
+            ohos:left_margin="16vp"
+            ohos:right_margin="16vp"
+            ohos:top_margin="16vp"/>
+
+        <Image
+            ohos:id="$+id:img_1"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:image_src="$media:plant"
+            ohos:left_margin="16vp"
+            ohos:right_margin="16vp"
+            ohos:top_margin="16vp"/>
+
+        <Image
+            ohos:id="$+id:img_1"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:image_src="$media:plant"
+            ohos:left_margin="16vp"
+            ohos:right_margin="16vp"
+            ohos:top_margin="16vp"/>
+
+        <Image
+            ohos:id="$+id:img_1"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:image_src="$media:plant"
+            ohos:left_margin="16vp"
+            ohos:right_margin="16vp"
+            ohos:top_margin="16vp"/>
+
+        <Image
+            ohos:id="$+id:img_1"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:image_src="$media:plant"
+            ohos:left_margin="16vp"
+            ohos:right_margin="16vp"
+            ohos:top_margin="16vp"/>
+
+        <Image
+            ohos:id="$+id:img_1"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:image_src="$media:plant"
+            ohos:left_margin="16vp"
+            ohos:right_margin="16vp"
+            ohos:top_margin="16vp"/>
+
+        <Image
+            ohos:id="$+id:img_1"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:image_src="$media:plant"
+            ohos:left_margin="16vp"
+            ohos:right_margin="16vp"
+            ohos:top_margin="16vp"/>
+
+        <Image
+            ohos:id="$+id:img_1"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:image_src="$media:plant"
+            ohos:left_margin="16vp"
+            ohos:right_margin="16vp"
+            ohos:top_margin="16vp"/>
+
+        <Image
+            ohos:id="$+id:img_1"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:image_src="$media:plant"
+            ohos:left_margin="16vp"
+            ohos:right_margin="16vp"
+            ohos:top_margin="16vp"/>
+
+        <Image
+            ohos:id="$+id:img_1"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:image_src="$media:plant"
+            ohos:left_margin="16vp"
+            ohos:right_margin="16vp"
+            ohos:top_margin="16vp"/>
+
+        <Image
+            ohos:id="$+id:img_1"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:image_src="$media:plant"
+            ohos:left_margin="16vp"
+            ohos:right_margin="16vp"
+            ohos:top_margin="16vp"/>
+
+        <Image
+            ohos:id="$+id:img_1"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:image_src="$media:plant"
+            ohos:left_margin="16vp"
+            ohos:right_margin="16vp"
+            ohos:top_margin="16vp"/>
+
+        <Image
+            ohos:id="$+id:img_1"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:image_src="$media:plant"
+            ohos:left_margin="16vp"
+            ohos:right_margin="16vp"
+            ohos:top_margin="16vp"/>
+
+        <Image
+            ohos:id="$+id:img_1"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:image_src="$media:plant"
+            ohos:left_margin="16vp"
+            ohos:right_margin="16vp"
+            ohos:top_margin="16vp"/>
+
+        <Image
+            ohos:id="$+id:img_1"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:image_src="$media:plant"
+            ohos:left_margin="16vp"
+            ohos:right_margin="16vp"
+            ohos:top_margin="16vp"/>
+
+        <Image
+            ohos:id="$+id:img_1"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:image_src="$media:plant"
+            ohos:left_margin="16vp"
+            ohos:right_margin="16vp"
+            ohos:top_margin="16vp"/>
+
+        <Image
+            ohos:id="$+id:img_1"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:image_src="$media:plant"
+            ohos:left_margin="16vp"
+            ohos:right_margin="16vp"
+            ohos:top_margin="16vp"/>
+
+
+    </DirectionalLayout>
+</ScrollView>

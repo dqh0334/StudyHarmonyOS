@@ -1,0 +1,32 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "MyApplication"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Java_Phone_Empty Feature Ability"
+    },
+    {
+      "name": "commoncompontsability_description",
+      "value": "Java_Phone_Empty Feature Ability"
+    },
+    {
+      "name": "commonlayout_description",
+      "value": "Java_Phone_Empty Feature Ability"
+    },
+    {
+      "name": "animationability_description",
+      "value": "Java_Phone_Empty Feature Ability"
+    },
+    {
+      "name": "testfractionability_description",
+      "value": "Java_Phone_Empty Feature Ability"
+    },
+    {
+      "name": "mediaability_description",
+      "value": "Java_Phone_Empty Feature Ability"
+    }
+  ]
+}

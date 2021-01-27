@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <Slider
+        ohos:id="$+id:slider"
+        ohos:height="match_parent"
+        ohos:width="50vp"
+        ohos:orientation="horizontal"
+        ohos:min="0"
+        ohos:max="100"
+        ohos:progress="40"
+        ohos:background_element="#ff0"
+        ohos:background_instruct_element="#0ff"/>
+
+</DirectionalLayout>

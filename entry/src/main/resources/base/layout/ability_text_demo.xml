@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent">
+
+    <DirectionalLayout
+        ohos:orientation="vertical"
+        ohos:height="match_content"
+        ohos:width="match_parent">
+
+        <Text
+            ohos:id="$+id:text"
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:text="设置字体大小和颜色"
+            ohos:text_size="28fp"
+            ohos:text_color="#0000FF"
+            ohos:left_margin="15vp"
+            ohos:bottom_margin="15vp"
+            ohos:right_padding="15vp"
+            ohos:left_padding="15vp"
+            ohos:background_element="$graphic:bg_rounded_rectangle"/>
+
+        <Text
+            ohos:id="$+id:text"
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:text="设置字体风格和字重"
+            ohos:text_size="28fp"
+            ohos:text_color="#0000FF"
+            ohos:italic="true"
+            ohos:text_weight="700"
+            ohos:text_font="serif"
+            ohos:left_margin="15vp"
+            ohos:bottom_margin="15vp"
+            ohos:right_padding="15vp"
+            ohos:left_padding="15vp"
+            ohos:background_element="$graphic:bg_rounded_rectangle"/>
+
+        <Text
+            ohos:id="$+id:text"
+            ohos:width="300vp"
+            ohos:height="100vp"
+            ohos:text="设置文本对齐方式"
+            ohos:text_size="28fp"
+            ohos:text_color="#0000FF"
+            ohos:italic="true"
+            ohos:text_weight="700"
+            ohos:text_font="serif"
+            ohos:left_margin="15vp"
+            ohos:bottom_margin="15vp"
+            ohos:right_margin="15vp"
+            ohos:right_padding="15vp"
+            ohos:left_padding="15vp"
+            ohos:text_alignment="horizontal_center|bottom"
+            ohos:background_element="$graphic:bg_rounded_rectangle"/>
+
+        <Text
+            ohos:width="match_parent"
+            ohos:height="match_content"
+            ohos:text="设置文本换行和最大显示行数设置文本换行和最大显示行数"
+            ohos:text_size="28fp"
+            ohos:text_color="#0000FF"
+            ohos:italic="true"
+            ohos:text_weight="700"
+            ohos:text_font="serif"
+            ohos:multiple_lines="true"
+            ohos:max_text_lines="2"
+            ohos:left_margin="15vp"
+            ohos:bottom_margin="15vp"
+            ohos:right_margin="15vp"
+            ohos:background_element="$graphic:bg_rounded_rectangle"/>
+
+
+        <Text
+            ohos:id="$+id:text"
+            ohos:width="match_parent"
+            ohos:height="match_content"
+            ohos:text="设置自动换行、最大显示行数和自动调节字体大小"
+            ohos:text_size="14fp"
+            ohos:text_color="#000"/>
+
+
+        <Text
+            ohos:id="$+id:text1"
+            ohos:width="90vp"
+            ohos:height="match_content"
+            ohos:min_height="30vp"
+            ohos:text="T"
+            ohos:text_color="#0000FF"
+            ohos:italic="true"
+            ohos:text_weight="700"
+            ohos:text_font="serif"
+            ohos:multiple_lines="true"
+            ohos:max_text_lines="1"
+            ohos:auto_font_size="true"
+            ohos:right_padding="8vp"
+            ohos:left_padding="8vp"
+            ohos:left_margin="15vp"
+            ohos:bottom_margin="15vp"
+            ohos:background_element="$graphic:bg_rounded_rectangle"/>
+
+        <Text
+            ohos:id="$+id:text2"
+            ohos:width="match_parent"
+            ohos:height="match_content"
+            ohos:text="当文本过长时，可以设置跑马灯效果，实现文本滚动显示。前提是文本换行关闭且最大显示行数为1"
+            ohos:text_size="28fp"
+            ohos:text_color="#0000FF"
+            ohos:italic="true"
+            ohos:text_weight="700"
+            ohos:text_font="serif"
+            ohos:left_margin="15vp"
+            ohos:bottom_margin="15vp"
+            ohos:truncation_mode="auto_scrolling"
+            ohos:right_margin="15vp"
+            ohos:background_element="$graphic:bg_rounded_rectangle"/>
+
+        <Text
+            ohos:width="match_parent"
+            ohos:height="match_content"
+            ohos:text="当文本过长时，可以设置尾部省略号，当文本过长时"
+            ohos:text_size="28fp"
+            ohos:text_color="#0000FF"
+            ohos:italic="true"
+            ohos:text_weight="700"
+            ohos:text_font="serif"
+            ohos:left_margin="15vp"
+            ohos:bottom_margin="15vp"
+            ohos:truncation_mode="ellipsis_at_end"
+            ohos:right_margin="15vp"
+            ohos:background_element="$graphic:bg_rounded_rectangle"/>
+
+        <Text
+            ohos:width="match_parent"
+            ohos:height="match_content"
+            ohos:text="当文本过长时，可以设置中间省略号，当文本过长时"
+            ohos:text_size="28fp"
+            ohos:text_color="#0000FF"
+            ohos:italic="true"
+            ohos:text_weight="700"
+            ohos:text_font="serif"
+            ohos:left_margin="15vp"
+            ohos:bottom_margin="15vp"
+            ohos:truncation_mode="ellipsis_at_middle"
+            ohos:right_margin="15vp"
+            ohos:background_element="$graphic:bg_rounded_rectangle"/>
+
+        <Text
+            ohos:width="match_parent"
+            ohos:height="match_content"
+            ohos:text="当文本过长时，可以设置开始省略号，当文本过长时"
+            ohos:text_size="28fp"
+            ohos:text_color="#0000FF"
+            ohos:italic="true"
+            ohos:text_weight="700"
+            ohos:text_font="serif"
+            ohos:left_margin="15vp"
+            ohos:bottom_margin="15vp"
+            ohos:truncation_mode="ellipsis_at_start"
+            ohos:right_margin="15vp"
+            ohos:background_element="$graphic:bg_rounded_rectangle"/>
+
+
+        <Text
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:text="button"
+            ohos:text_size="28fp"
+            ohos:text_color="#0000FF"
+            ohos:left_margin="15vp"
+            ohos:bottom_margin="15vp"
+            ohos:text_alignment="center"
+            ohos:truncation_mode="ellipsis_at_start"
+            ohos:right_margin="15vp"
+            ohos:element_left="$media:icon_refresh"
+            ohos:element_right="$media:icon_refresh"
+            ohos:element_top="$media:icon_refresh"
+            ohos:element_bottom="$media:icon_refresh"
+            ohos:background_element="$graphic:bg_rounded_rectangle"/>
+
+    </DirectionalLayout>
+</ScrollView>

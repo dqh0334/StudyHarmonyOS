@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:ohos="http://schemas.huawei.com/res/ohos"
+                ohos:oneshot="false">
+    <item ohos:element="$media:01" ohos:duration="100"/>
+    <item ohos:element="$media:02" ohos:duration="100"/>
+    <item ohos:element="$media:03" ohos:duration="100"/>
+    <item ohos:element="$media:04" ohos:duration="100"/>
+    <item ohos:element="$media:05" ohos:duration="100"/>
+    <item ohos:element="$media:06" ohos:duration="100"/>
+    <item ohos:element="$media:07" ohos:duration="100"/>
+    <item ohos:element="$media:08" ohos:duration="100"/>
+    <item ohos:element="$media:09" ohos:duration="100"/>
+</animation-list>

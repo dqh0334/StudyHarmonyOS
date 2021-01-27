@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <StackLayout
+        ohos:id="$+id:fractionlayout"
+        ohos:height="0vp"
+        ohos:width="match_parent"
+        ohos:weight="1"/>
+
+    <RadioContainer
+        ohos:id="$+id:rc_fraction"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:layout_alignment="left"
+        ohos:orientation="horizontal"
+        ohos:background_element="#ff0">
+        <RadioButton
+            ohos:id="$+id:rd_fraction_1"
+            ohos:text_color_off="#808080"
+            ohos:height="40vp"
+            ohos:width="0vp"
+            ohos:weight="1"
+            ohos:text="关注"
+            ohos:text_size="20fp"
+            ohos:text_color_on="#FF3333"/>
+        <RadioButton
+            ohos:id="$+id:rd_fraction_2"
+            ohos:height="40vp"
+            ohos:width="0vp"
+            ohos:weight="1"
+            ohos:text="推荐"
+            ohos:text_size="20fp"
+            ohos:text_color_on="#00BFFF"
+            ohos:text_color_off="#808080"/>
+        <RadioButton
+            ohos:id="$+id:rd_fraction_3"
+            ohos:height="40vp"
+            ohos:width="0vp"
+            ohos:weight="1"
+            ohos:text="设置"
+            ohos:text_size="20fp"
+            ohos:text_color_on="#00BFFF"
+            ohos:text_color_off="#808080"/>
+        <RadioButton
+            ohos:id="$+id:rd_fraction_4"
+            ohos:height="40vp"
+            ohos:width="0vp"
+            ohos:weight="1"
+            ohos:text="我的"
+            ohos:text_size="20fp"
+            ohos:text_color_on="#00BFFF"
+            ohos:text_color_off="#808080"/>
+    </RadioContainer>
+
+</DirectionalLayout>

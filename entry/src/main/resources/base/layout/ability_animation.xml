@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <Button
+        ohos:id="$+id:btn_animator_frame_demo"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:background_element="$graphic:bg_rounded_rectangle"
+        ohos:margin="10vp"
+        ohos:padding="10vp"
+        ohos:text="帧动画"
+        ohos:text_size="20fp"/>
+
+    <Button
+        ohos:id="$+id:btn_animator_value_demo"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:background_element="$graphic:bg_rounded_rectangle"
+        ohos:margin="10vp"
+        ohos:padding="10vp"
+        ohos:text="数值动画"
+        ohos:text_size="20fp"/>
+
+    <Button
+        ohos:id="$+id:btn_animator_property_demo"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:background_element="$graphic:bg_rounded_rectangle"
+        ohos:margin="10vp"
+        ohos:padding="10vp"
+        ohos:text="属性动画"
+        ohos:text_size="20fp"/>
+
+    <Button
+        ohos:id="$+id:btn_animator_group_demo"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:background_element="$graphic:bg_rounded_rectangle"
+        ohos:margin="10vp"
+        ohos:padding="10vp"
+        ohos:text="组合动画"
+        ohos:text_size="20fp"/>
+
+</DirectionalLayout>

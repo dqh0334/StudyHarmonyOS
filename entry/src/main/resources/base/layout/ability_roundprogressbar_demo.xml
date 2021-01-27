@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <RoundProgressBar
+        ohos:id="$+id:round_progress_bar"
+        ohos:height="200vp"
+        ohos:width="200vp"
+        ohos:progress="20"
+        ohos:progress_color="#47CC47"
+        ohos:progress_width="10vp"/>
+
+    <RoundProgressBar
+        ohos:id="$+id:round_progress_bar1"
+        ohos:height="200vp"
+        ohos:width="200vp"
+        ohos:max_angle="270"
+        ohos:progress="20"
+        ohos:progress_hint_text="Round"
+        ohos:progress_hint_text_color="#007DFF"
+        ohos:progress_width="10vp"
+        ohos:start_angle="45"/>
+
+</DirectionalLayout>
