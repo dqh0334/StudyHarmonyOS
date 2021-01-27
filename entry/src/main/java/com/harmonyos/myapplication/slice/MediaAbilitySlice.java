@@ -12,14 +12,6 @@ public class MediaAbilitySlice extends AbilitySlice implements Component.Clicked
     public void onStart(Intent intent) {
         super.onStart(intent);
         super.setUIContent(ResourceTable.Layout_ability_media);
-
-        getWindow().setTransparent(true);
-        getWindow().setLayoutAlignment(LayoutAlignment.BOTTOM);
-        WindowManager.LayoutConfig layoutConfig = getWindow().getLayoutConfig().get();
-        layoutConfig.width = 1000;
-        layoutConfig.height = 1200;
-        getWindow().setLayoutConfig(layoutConfig);
-
         findComponentById(ResourceTable.Id_btn_player_video).setClickedListener(this);
         findComponentById(ResourceTable.Id_btn_take_picture).setClickedListener(this);
         findComponentById(ResourceTable.Id_stackLayout).setClickedListener(new Component.ClickedListener() {

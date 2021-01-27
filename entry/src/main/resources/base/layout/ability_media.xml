@@ -7,8 +7,7 @@
     ohos:orientation="vertical">
 
     <DirectionalLayout
-        ohos:layout_alignment="bottom"
-        ohos:height="280vp"
+        ohos:height="match_parent"
         ohos:width="match_parent"
         ohos:orientation="vertical">
 

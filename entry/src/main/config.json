@@ -87,16 +87,7 @@
         "description": "$string:mediaability_description",
         "label": "entry",
         "type": "page",
-        "launchType": "standard",
-        "metaData": {
-          "customizeData": [
-            {
-              "name": "hwc-theme",
-              "extra": "",
-              "value": "androidhwext:style/Theme.Emui.Translucent.NoTitleBar"
-            }
-          ]
-        }
+        "launchType": "standard"
       }
     ],
     "reqPermissions": [
